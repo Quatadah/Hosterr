@@ -24,3 +24,32 @@ h1{
     width: 270px;
     height: 55px;
 }
+
+
+.parent{
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-60deg);
+    top: 0;
+    left: 0;
+}
+.two{
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-40deg);
+}
+
+.three{
+    position: absolute;
+    z-index: 3;
+    transform: rotate(-20deg);
+}
+
+.four{
+    position: absolute;
+    z-index: 4;
+}
