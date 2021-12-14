@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Lato;
+    src: url(./Assets/Fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(./Assets/Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: oldlace;
+    font-family: Lato;
+}
+
+h1{
+    font-family: Playfair;
+}
+
+.ipt{
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    width: 270px;
+    height: 55px;
+}
